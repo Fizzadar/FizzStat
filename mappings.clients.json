@@ -1,0 +1,25 @@
+{
+    "client": {
+        "dynamic": "false",
+        "properties": {
+            "ip": {
+                "include_in_all": true,
+                "index": "not_analyzed",
+                "type": "string",
+                "store": true
+            },
+            "browser": {
+                "include_in_all": true,
+                "index": "not_analyzed",
+                "type": "string",
+                "store": true
+            },
+            "hash": {
+                "include_in_all": true,
+                "index": "not_analyzed",
+                "type": "string",
+                "store": true
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+# Webserver
+flask==0.10.1
+
+# Queue
+redis==2.10.3
+
+# Store
+elasticsearch==1.2.0
+
+# Minify JS
+jsmin==2.0.11

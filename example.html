@@ -1,0 +1,17 @@
+Hello World. <a href="example.html">Link test</a>. <a href="http://google.com">External link test</a>.
+
+<script type="text/javascript">
+    (function() {
+        // Client defined hash to add uniqueness
+        var client_hash = '';
+
+        // Generate hash based on plugin/etc info
+
+        // Async load of collect JS w/ cache-bust
+        window.addEventListener('load', function() {
+            var script = document.createElement('script');
+            script.src = '//localhost:5000?' + new Date().getTime() + '&client_hash=' + client_hash;
+            document.body.appendChild(script);
+        });
+    })();
+</script>

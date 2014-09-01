@@ -1,0 +1,41 @@
+{
+    "event": {
+        "dynamic": "false",
+        "properties": {
+            "client": {
+                "include_in_all": false,
+                "index": "not_analyzed",
+                "type": "string",
+                "store": true
+            },
+            "view": {
+                "include_in_all": false,
+                "type": "string",
+                "store": true
+            },
+            "date": {
+                "include_in_all": true,
+                "type": "date",
+                "format": "dateOptionalTime",
+                "store": true
+            },
+            "type": {
+                "include_in_all": true,
+                "index": "not_analyzed",
+                "type": "string",
+                "store": true
+            },
+            "value": {
+                "include_in_all": true,
+                "index": "not_analyzed",
+                "type": "string",
+                "store": true
+            },
+            "data": {
+                "include_in_all": true,
+                "type": "nested",
+                "store": true
+            }
+        }
+    }
+}

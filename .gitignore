@@ -1,0 +1,6 @@
+# Ew
+*.DS_Store
+*.pyc
+
+# Custom settings
+settings_ext.py
